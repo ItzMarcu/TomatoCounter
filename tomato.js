@@ -19,10 +19,8 @@ function updateTimer() {
         isRunning = false;
 
         if (isPomodoro) {
-            // Se è il timer Pomodoro, avvia il timer di pausa di 10 minuti
             startPauseTimer();
         } else {
-            // Se è il timer di pausa, avvia un nuovo timer Pomodoro di 25 minuti
             startPomodoroTimer();
         }
     } else {
